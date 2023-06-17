@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src:  url('jetbrainsmono.woff2') format('woff2'),
+}
+* {
+    font-family: JetBrains Mono;
+}
+
+  
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(22, 22, 22);
+  }
+
+p {
+  color: rgb(207, 203, 203);
+  margin-top: 10px;
+  font-size: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(0, 255, 255, 0.726);
+  margin-top: 30px;
+}
