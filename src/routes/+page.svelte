@@ -9,7 +9,7 @@
 
 <Navbar />
 
-<h1>Ramondia</h1>
+<h1>Services</h1>
 
 <div class="container">
   <div class="box" onclick="window.open('https://search.pfcd.me/', '_blank')">
