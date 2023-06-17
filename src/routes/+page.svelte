@@ -3,15 +3,15 @@
   import Navbar from "../lib/Navbar.svelte";
   import Box from "../lib/Box.svelte";
   import IconSearx from "../lib/assets/searxng.svg";
-  import IconPiped from "../lib/assets/piped.png"
-  import IconElement from "../lib/assets/element.png"
-  import IconLibreddit from "../lib/assets/libreddit.png"
-  import IconPrivatebin from "../lib/assets/privatebin.png"
-  import IconHyperpipe from "../lib/assets/hyperpipe.png"
-  import IconVaultwarden from "../lib/assets/vaultwarden.png"
-  import IconLibrarian from "../lib/assets/librarian.png"
-  import IconLibrespeed from "../lib/assets/librespeed.png"
-  import IconJitsi from "../lib/assets/jitsi.png"
+  import IconPiped from "../lib/assets/piped.png";
+  import IconElement from "../lib/assets/element.png";
+  import IconLibreddit from "../lib/assets/libreddit.png";
+  import IconPrivatebin from "../lib/assets/privatebin.png";
+  import IconHyperpipe from "../lib/assets/hyperpipe.png";
+  import IconVaultwarden from "../lib/assets/vaultwarden.png";
+  import IconLibrarian from "../lib/assets/librarian.png";
+  import IconLibrespeed from "../lib/assets/librespeed.png";
+  import IconJitsi from "../lib/assets/jitsi.png";
   function redirectToLink(link) {
     window.location.href = link;
   }
