@@ -8,7 +8,7 @@
 
 <nav>
   <div class="left-content">
-    <span class="logo-text">Ramondia</span>
+    <span class="logo-text">Homepage</span>
   </div>
 
   <div class="right-content">
