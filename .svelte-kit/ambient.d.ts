@@ -115,6 +115,7 @@ declare module '$env/static/private' {
 	export const LESSOPEN: string;
 	export const USER: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
+	export const PAM_KWALLET5_LOGIN: string;
 	export const MORE: string;
 	export const CSHEDIT: string;
 	export const DISPLAY: string;
@@ -271,6 +272,7 @@ declare module '$env/dynamic/private' {
 		LESSOPEN: string;
 		USER: string;
 		VSCODE_GIT_IPC_HANDLE: string;
+		PAM_KWALLET5_LOGIN: string;
 		MORE: string;
 		CSHEDIT: string;
 		DISPLAY: string;

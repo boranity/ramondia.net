@@ -1,6 +1,7 @@
 <script>
   import "../app.css";
   import Navbar from "../lib/Navbar.svelte";
+  import TextIncident from "../incident.txt?raw";
   import Box from "../lib/Box.svelte";
   import IconSearx from "../lib/assets/searxng.svg";
   import IconPiped from "../lib/assets/piped.png";
@@ -130,10 +131,7 @@
     <p>Privacy-Focused Internet Speed Test Service.</p>
   </div>
 
-  <div
-    class="box"
-    onclick="window.open('https://jitsi.ramondia.net/', '_blank')"
-  >
+  <div class="box" onclick="window.open('https://jitsi.ramondia.net/', '_blank')">
     <h2>Jitsi</h2>
     <img
       src={IconJitsi}
@@ -144,6 +142,12 @@
     <p>Video Conferencing Software.</p>
   </div>
 </div>
+
+<h1>Incidents</h1>
+
+<div class="incidentbox">
+  <p>{TextIncident}</p>
+  </div>
 
 <style>
   .container {
@@ -162,6 +166,14 @@
     margin: 0.5em;
     cursor: pointer;
     border-radius: 5%;
+  }
+  .incidentbox {
+    width: 600px;
+    border: 1.5px solid #3d3c3c;
+    box-shadow: 1px 1px 4px rgba(0, 255, 255, 0.24);
+    padding: 1em;
+    margin: auto;
+    cursor: pointer;
   }
 
   .box:hover {

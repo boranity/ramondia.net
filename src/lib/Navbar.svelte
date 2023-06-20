@@ -4,11 +4,20 @@
     { text: "Donate", url: "/donate" },
     { text: "Contact", url: "/contact" },
   ];
+  let status =  [
+    { text: "Status", url: "https://status.ramondia.net" }
+  ]
 </script>
 
 <nav>
   <div class="left-content">
     <span class="logo-text">Homepage</span>
+  </div>
+
+  <div class="middle-content">
+    {#each status as link}
+      <a href={link.url} class="nav-link">{link.text}</a>
+    {/each}
   </div>
 
   <div class="right-content">
@@ -29,6 +38,12 @@
   .left-content {
     display: flex;
     align-items: center;
+  }
+  .middle-content {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    justify-content: center;
   }
 
   .right-content {
