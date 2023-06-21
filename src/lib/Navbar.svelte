@@ -28,6 +28,8 @@
 </nav>
 
 <style>
+
+
   nav {
     background-color: #252525;
     padding: 13px;
@@ -40,10 +42,10 @@
     align-items: center;
   }
   .middle-content {
-    display: flex;
+    display: grid;
     align-items: center;
     margin-left: 7%;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .right-content {
