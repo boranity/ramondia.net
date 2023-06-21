@@ -168,7 +168,8 @@
     border-radius: 5%;
   }
   .incidentbox {
-    width: 600px;
+    display:flex;
+    width: 300px;
     border: 1.5px solid #3d3c3c;
     box-shadow: 1px 1px 4px rgba(0, 255, 255, 0.24);
     padding: 1em;
