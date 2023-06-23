@@ -1,9 +1,7 @@
-@font-face {
-  font-family: 'JetBrains Mono';
-  src:  url('jetbrainsmono.woff2') format('woff2'),
-}
+@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono&display=swap');
+
 * {
-    font-family: JetBrains Mono;
+  font-family: 'JetBrains Mono';
 }
 
   
